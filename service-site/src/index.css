@@ -228,6 +228,99 @@ h2 span {
   font-weight: 700;
   color: #fff;
 }
+/* skldjcko */
+.services-heading{
+  display: flex;
+}
+.service-filter{
+  padding: 10px 0;
+  width: 100%;
+}
+.service-filter>.filter{
+  display: flex;
+  gap: 5px;
+  font-size: 30px;
+  padding: 5px 0;
+}
+.search-box{
+  width:70%;
+padding: 10px;
+box-sizing: border-box;
+background: #c5b8b8;
+
+align-items: center;
+}
+.select-box{
+  padding: 10px 30px;
+ 
+ 
+}
+.select-box>option{
+  margin: 0 10px;
+}
+.service-cartt{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.service-cart{
+  width: 250px;
+  background-color: #040218;
+  padding: 8px;
+  border-radius: 5px;
+}
+.cart>.cart-icon{
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 2px;
+  background: #252a58;
+  width:40px;
+  text-align: center;
+}
+.cart-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  color: #1e037f;
+}
+.cart>h3{
+  margin: 5px 0;
+  font-weight: 900;
+}
+.cart>p{
+  padding: 5px 0;
+  font-size: 12px;
+  color: #4b5062;
+}
+.cart-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0;
+  
+}
+/* cta */
+.cta{
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  justify-content: space-between;
+  
+
+}
+.cta-logo{
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+
 .about {
   background: #0b1727;
 }
